@@ -1,0 +1,17 @@
+Project C:\Users\SVatsan\OneDrive - Rockwell Automation, Inc\Desktop\A&S&IPB\FTOptix\Lab Files\LibTemplates_21CFR_V4\LibTemplates_21CFR_V4\LibTemplates_21CFR_V4.optix upgraded on 15-06-2023 10:42:44.615
+
+Upgraded modules:
+FTOptix.HMIProject: from 1.0 to 4.2
+FTOptix.Core: from 1.0 to 2.0
+FTOptix.Core.Net: from 1.0 to 1.1
+FTOptix.CoreBase: from 1.0 to 2.1
+FTOptix.UI: from 1.0 to 2.0
+FTOptix.UI.Net: from 1.0 to 2.0
+FTOptix.HMIProject.Net: from 1.0 to 4.2
+FTOptix.NativeUI: from 1.0 to 2.0
+
+List of potential breaking changes:
+If your project included the RecipesEditor widget from the template library,
+please re-import it from the template library so that it can be properly updated.
+
+

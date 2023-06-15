@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LibTemplates_21CFR_V4/1.0.0": {
+        "runtime": {
+          "LibTemplates_21CFR_V4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibTemplates_21CFR_V4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

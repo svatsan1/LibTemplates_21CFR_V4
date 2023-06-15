@@ -1,0 +1,331 @@
+Name: Users
+Id: g=1a535fd5fc442d638975c4b9502205b1
+Type: FolderType
+Children:
+- Name: Opt_A
+  Id: g=9588b7eb3fa1b05e7d36eb5a305577ab
+  Type: User_21CFR
+  Children:
+  - Name: Change_Password_On_Next_Login
+    Id: g=02624f64f202dd71f0f595521f68b447
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: User_Blocked
+    Id: g=cb75d70f41d69c22132103cfd595c55f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Password_Creation_Date
+    Id: g=c2896cc59a2be2a3c6f3366496f8a721
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2023-05-31T00:00:00.0000000"
+  - Name: Password
+    Id: g=42889fdbeebea88c12abf19bbe7f9945
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=0b10aebe554e37d8491856e4299e7063
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[5,102,51,95,49,204,167,249,77,71,225,39,179,192,93,87,227,245,45,102,189,193,212,60,218,155,143,229,173,129,176,240],"Salt":[15,55,75,32,160,232,211,226,123,123,207,253,161,212,127,179,46,160,104,172,64,11,232,213,209,241,95,250,169,9,34,211]}}
+    - Name: ChangeTimestamp
+      Id: g=1bb7d1c3da766da6885d1cc7ee33c875
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2023-05-28T07:13:23.6991679"
+    - Name: History
+      Id: g=f3f5322ca21b4a1b401b53ed08522f93
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: LocaleId
+    Id: g=59e20293ec7c5116713e27e808bad284
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=b79c0664748e29042b5bfd80bcc89abd
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=349f05caa748fb55eec882cb098e5fa0
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=0477c27bc53c9c37f9cbbcfb30ef85ee
+  - Name: Invalid_Login_Attempts
+    Id: g=c0c8d3110a61865ed4cf11cde78e0654
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: User_Active
+    Id: g=d0f3609f9dbf48c3f8854b8fe1ddcf0a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: Eng_A
+  Id: g=82c8f992aa005e328191ceaf85558bb3
+  Type: User_21CFR
+  Children:
+  - Name: Change_Password_On_Next_Login
+    Id: g=91a92f17855de864286ba025f2378564
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: User_Blocked
+    Id: g=18442878155122758f89486b3438335a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Password_Creation_Date
+    Id: g=ffc25f796b833b0ff5d335d45bef4e8f
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2023-05-31T00:00:00.0000000"
+  - Name: Password
+    Id: g=733f37d8dbd4d1d71d8d0d89ed2ccbfd
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=351c9bd35305503e517ddd863aea12ff
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[144,95,225,143,238,132,72,91,54,185,255,68,252,48,8,32,237,25,27,209,252,199,201,175,238,196,107,147,96,96,136,224],"Salt":[162,172,169,125,79,92,4,202,138,219,230,114,158,172,69,210,249,133,82,103,24,167,136,48,99,178,74,195,195,47,69,55]}}
+    - Name: ChangeTimestamp
+      Id: g=4589230bd57cd8e184786277bab52ab1
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2023-05-28T07:13:58.5325799"
+    - Name: History
+      Id: g=b1ed1315aaffb5a029bd2a16abca6069
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: LocaleId
+    Id: g=e08f388bba01b5fd3a6ecc6247fbd698
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=34414b62dfa51a3eef472e42653bc037
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=f5e335cb5c3544abeeb546a07fa3632f
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=0477c27bc53c9c37f9cbbcfb30ef85ee
+  - Class: Reference
+    Type: HasGroup
+    Target: g=7250f8cf60ae7065a08a50761ddcabef
+  - Name: Invalid_Login_Attempts
+    Id: g=728b978094e77896ceb2075aed0910c7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: User_Active
+    Id: g=c01bbc8e472474ef27e7bd4cdc5fa4c4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: Man_A
+  Id: g=a4dcd25db7d9082ce505cc05b6020091
+  Type: User_21CFR
+  Children:
+  - Name: Change_Password_On_Next_Login
+    Id: g=767775dea986b2db94c3c7aac0753a0c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: User_Blocked
+    Id: g=b800c4364dbf53411b388dc715484d9a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Password_Creation_Date
+    Id: g=02bd68dd47dfe73f7a0cabe61b6a03ea
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2023-05-31T00:00:00.0000000"
+  - Name: Password
+    Id: g=b409832a53012d2baa0d2b6425d25892
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=38fe970985057ca6fc09e98ad4ca8dd1
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[184,166,173,206,219,75,52,182,16,219,144,147,228,105,37,96,65,135,209,223,241,93,205,179,76,135,58,200,36,74,15,175],"Salt":[223,26,19,166,200,180,94,87,91,41,190,104,223,91,12,79,252,210,180,145,142,214,251,21,97,208,244,19,118,123,46,0]}}
+    - Name: ChangeTimestamp
+      Id: g=c2e5e76745585108abe7ef2140809938
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2023-05-28T07:14:04.7173264"
+    - Name: History
+      Id: g=aef8e060096017cf78dd22ac111863ab
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: LocaleId
+    Id: g=1a593a6454196bfc3c20d5052937ac70
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=101626dfe16605a0a4bca590f01c854a
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=ed6f6a0cd48d04f5320bbae1b29efd30
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=0477c27bc53c9c37f9cbbcfb30ef85ee
+  - Class: Reference
+    Type: HasGroup
+    Target: g=afe1e0253590ce3ee4491976913c57a5
+  - Name: Invalid_Login_Attempts
+    Id: g=bb839e8612796dddc2cbae5c9d2aa672
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: User_Active
+    Id: g=ff9a2eb457c86dd1f90cb9e986cd26b8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: Admin_A
+  Id: g=bd986f7e77883cbdc7f51c10e236be07
+  Type: User_21CFR
+  Children:
+  - Name: Change_Password_On_Next_Login
+    Id: g=d0bb73c95dc4feb992fe28e6a4fec2fa
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: User_Blocked
+    Id: g=aba08253e028f381bf05f36d4301a5a8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Password_Creation_Date
+    Id: g=324a1f32a7c5deba8b5b230fb22e7401
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2023-05-31T00:00:00.0000000"
+  - Name: Password
+    Id: g=27bfb4626f845eea9446e08a85b3be18
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=e31c1dccf4fb53d5d612887ed13d13ed
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[79,83,214,142,88,0,183,93,230,50,221,159,186,154,220,107,81,132,154,104,115,243,113,34,169,45,99,108,28,236,151,13],"Salt":[134,199,239,95,98,33,138,34,68,21,98,243,81,107,211,231,56,92,59,97,204,184,244,220,55,234,75,3,124,151,159,141]}}
+    - Name: ChangeTimestamp
+      Id: g=02059d3f0d9cf8e903f63ed10c4f9121
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2023-05-28T07:14:09.9604021"
+    - Name: History
+      Id: g=cdc113ecdfd662cfbb4b6cdd8d059ed2
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: LocaleId
+    Id: g=feca6c65274c1d4eff3837e578f358c4
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=9fba45b63670d1bbea3682f390f75fb5
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=b75ac29d69ab671ccad19ca6f9b1de2c
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=ba53616d328aec5cca911c6f17d57772
+  - Class: Reference
+    Type: HasGroup
+    Target: g=7250f8cf60ae7065a08a50761ddcabef
+  - Class: Reference
+    Type: HasGroup
+    Target: g=afe1e0253590ce3ee4491976913c57a5
+  - Class: Reference
+    Type: HasGroup
+    Target: g=0477c27bc53c9c37f9cbbcfb30ef85ee
+  - Name: Invalid_Login_Attempts
+    Id: g=f04a4226046a4026869510a8ec7e50d3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: User_Active
+    Id: g=d722db8414301244dbd8f71997e29aac
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

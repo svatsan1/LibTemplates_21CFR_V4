@@ -1,0 +1,39 @@
+Name: RecipeVars
+Id: g=31734754787a013a4c952d7c50816ef1
+Type: FolderType
+Children:
+- Name: MachineMode
+  Id: g=e2114287555c7ea05432c5c282ec0708
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: MachineSpeed
+  Id: g=a75a648ede9d14f84358fc702f5f942c
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: TemperatureSetpoint
+  Id: g=b30372e9323a2fcfbbcdf844c2a0c1f3
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: HumiditySetpoint
+  Id: g=9df6c26095f73a3db5faa020035490d2
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: PressureSetpoint
+  Id: g=b194060fafe7b7f11e4728ab47546044
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: ProductName
+  Id: g=4236f0f4f4e649e9ee1adc6f2b568bbf
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: BatchName
+  Id: g=9d0c4ce73591a800ac10931fbaa1bc38
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

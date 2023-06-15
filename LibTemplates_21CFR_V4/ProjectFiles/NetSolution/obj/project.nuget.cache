@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eOCqKGvVcI0r8xbvb508g3OwesgYehn670gJxmGxR1GjhHK3KdnINoTH+bLMfdmqHF048YfzK+tXkNuOip7+8Q==",
+  "success": true,
+  "projectFilePath": "C:\\WorkSpace\\FTOptix\\LibTempRunning\\LibTemplates_21CFR_V4\\ProjectFiles\\NetSolution\\LibTemplates_21CFR_V4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RAW10usernameEWS\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\RAW10usernameEWS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\RAW10usernameEWS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

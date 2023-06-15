@@ -1,0 +1,80 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: MotorSpeed
+  Id: g=25f69ecfd3918390c0e6c95ee49330da
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 1000
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
+- Name: MotorTorque
+  Id: g=81481d5ce9ca349a9590772a37a704f5
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 5.5
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: MotorCurrent
+  Id: g=17af757b4374d974a215a0e0adba5308
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 15.199999809265137
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- Name: MotorName
+  Id: g=2cdd6f6610c27a8a7e2a79f6a020dd9e
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Motor_A"
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- File: RecipeVars/RecipeVars.yaml
+- Name: UserPassword
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

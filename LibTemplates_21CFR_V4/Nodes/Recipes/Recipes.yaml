@@ -1,0 +1,124 @@
+Name: Recipes
+Type: FolderType
+Children:
+- Name: RecipeSchema1
+  Id: g=73cf40c6f71bec9e8c9582786bca9479
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: MachineMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MachineSpeed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TemperatureSetpoint
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: HumiditySetpoint
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: PressureSetpoint
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: BatchName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+  - Class: Reference
+    Target: ns=11;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"31734754787a013a4c952d7c50816ef1","Namespace":25}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"df09584781ffcd42a94be0239c352f53","Namespace":25}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":17}
+  - Name: EditModel
+    Id: g=3862304317b3a645f8111fc98d568a71
+    Type: BaseObjectType
+    Children:
+    - Name: MachineMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MachineSpeed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TemperatureSetpoint
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: HumiditySetpoint
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: PressureSetpoint
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: BatchName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""

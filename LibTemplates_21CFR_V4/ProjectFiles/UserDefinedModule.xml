@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>LibTemplates_21CFR_V4UserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="FTOptix.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="53b1bd1b17b4de66926108a7dfdf143e" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="dd6d93e21cdcf345f80b479e33378452" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="4bc3eb709d9af2643af0a98881a2043a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="e125fc497de2ec3fa4ceb5c5947950c7" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="638838acd9f5ae93ca75b058c300b43b" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="fd52139656c4cab63738095f771343a3" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="ae6c6b863ce26dd4bd03ec9fb91cee1d" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="76c6b9dc24666b9297ce397d3fb2b9fe" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="278148da412185a9ceed68b2c4bf2c2c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="e0adcb07458f652f8276e150fbafe974" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="5bd1738d3f60d47ba30b9df411fa0050" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="d312f5365c7d886a7a689a7c61bf2412" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="937bdaeca748212659105fb563595c0b" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="59f233a86b88133bc07cecf82da51463" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="b6239b77b31bba48a937ee481e521c37" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="7304b9dd4115f22754533f88c4f03d94" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="d0fba00ff93f064d6e1cb546eea27209" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="ce814fddddd607c776a3b9a6e0b90c27" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="740219850f2b82341c939903d4f8a769" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="e6101d4d11b918c8a791f3bb975617f2" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="ab42361cb8eaa20fe53ce595433843c6" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="2eebfd3def044e747aa57952fc13c70d" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="fc0d46c3cf6fc6f7faace8fa13bde2b5" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="c484272d1d6604045b1fffaed93883c0" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="d8c1f937b06701ef258bf0ca9bebb5a9" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="26f221199dc242d3c4fc679e939e7327" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="30221b5fae81111f5c1f63984869a65b" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="75af5a66346b7424d70436b89008a733" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="1cff25d0dc4011d236f9dc31bda73133" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="LibTemplates_21CFR_V4" guid="fa0696734c8c8356ac24bb2c3b892eb5" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+</Module>

@@ -1,0 +1,43 @@
+Name: UserObjects
+Type: FolderType
+Children:
+- Name: UserGroups
+  Type: BaseObjectType
+  Children:
+  - Name: UserGroupName
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: ["0","0","0","0"]
+  - Name: UserGroupCounts
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: PasswordPolicy
+  Type: BaseObjectType
+  Children:
+  - Name: UppercaseCharacter
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LowercaseCharacter
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: SpecialCharacter
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: NumericCharacter
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: InvalidLoginAttemptLimit
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: PasswordExpiryAlertDays
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
